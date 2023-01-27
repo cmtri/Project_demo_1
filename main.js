@@ -1,6 +1,5 @@
-// Get all dropdowns from the document
+// Định dạng cho header (Thanh menu)
 const dropdowns = document.querySelectorAll('.dropdown');
-
 // Loop though all dropdown elements
 dropdowns.forEach(dropdown => {
   // Get inner elements from each dropdown
@@ -41,3 +40,4 @@ dropdowns.forEach(dropdown => {
     });
   });
 });
+//Hết định dạng cho header
